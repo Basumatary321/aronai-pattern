@@ -14,17 +14,37 @@ Live Demo</a>
 <li>Interactive UI: Smooth animated download progress popups and fast SVG rendering.</li>
 </ul>
 <h3>### 📸 Preview</h3>
-<img src="./images/aronaiscreen.jpg">
+<img src="./images/Screenshot1.jpg" width="40%">
+<img src="./images/Screenshot2.jpg" width="40%">
 
 <h3>### 📥 Supported Export Formats</h3>
-<table border="1">
+<table border="1" cellspacing="0" cellpadding="10">
 <tr>
 <td>Format</td><td>Discription</td>
 </tr>
+<tr>
+<td>PNG</td><td>High-resolution image with transparency support.</td>
+</tr>
+<tr>
+<td>JPG</td><td>Compressed format ideal for standard printing.</td>
+</tr>
+<tr>
+<td>PDF</td><td>Vector-based document for high-quality professional printing.</td>
+</tr>
+<tr>
+<td>SVG</td><td>Scalable vector format for further editing in Illustrator or Inkscape.</td>
+</tr>
 </table>
 
+<h3>### 🛠️ Technologies Used</h3>
+<ul>
+<li>Frontend: HTML5, CSS3, JavaScript (ES6+)</li>
+<li>Graphics: SVG (Scalable Vector Graphics)</li>
+<li>Libraries: jsPDF for PDF generation</li>
+</ul>
 
-FormatDescriptionPNGHigh-resolution image with transparency support.JPGCompressed format ideal for standard printing.PDFVector-based document for high-quality professional printing.SVGScalable vector format for further editing in Illustrator or Inkscape.### 🛠️ Technologies UsedFrontend: HTML5, CSS3, JavaScript (ES6+)Graphics: SVG (Scalable Vector Graphics)Libraries: jsPDF for PDF generation.### 📂 Project StructurePlaintextaronai-pattern-maker/
+<h3>### 📂 Project Structure</h3>
+<pre>aronai-pattern-maker/
 │
 ├── index.html       # Main application entry point
 ├── style.css        # Modern UI styling and layout
@@ -32,5 +52,32 @@ FormatDescriptionPNGHigh-resolution image with transparency support.JPGCompresse
 ├── progress.js      # Download progress animation logic
 ├── download.html    # Dedicated export processing page
 └── assets/          # Images, icons, and preview files
-### 🚀 Getting Started1. Clone the RepositoryBashgit clone https://github.com/Basumatary321/aronai-pattern.git
-2. Run LocallySimply open the index.html file in any modern web browser. No local server or installation is required.### 🎯 Future Roadmap[ ] Pattern Library: Add multiple traditional pattern presets.[ ] AI Suggestions: Implement AI-driven color palette recommendations.[ ] Cloud Save: User login system to save and manage custom designs.[ ] Marketplace: A platform for users to share their unique patterns.### 👨‍💻 AuthorKabindra BasumataryGitHub: @Basumatary321Institute: Techno IT Computer Institute### 📄 LicenseThis project is licensed under the MIT License. You are free to use, modify, and distribute it for personal or commercial projects.Note: If you find this project helpful, please consider giving it a ⭐ to show your support!
+</pre>
+
+<h3>### 🚀 Getting Started</h3>
+<ol>
+<li>Clone the Repository
+<pre>bash
+git clone https://github.com/Basumatary321/aronai-pattern.git
+</pre>
+</li>
+<li>Run Locally
+Simply open the index.html file in any modern web browser. No local server or installation is required.</li>
+</ol>
+
+<h3>### 🎯 Future Roadmap</h3>
+<ul>
+<li>[ ] Pattern Library: Add multiple traditional pattern presets.</li>
+<li>[ ] AI Suggestions: Implement AI-driven color palette recommendations.</li>
+<li>[ ] Cloud Save: User login system to save and manage custom designs.</li>
+<li>[ ] Marketplace: A platform for users to share their unique patterns.</li>
+</ul>
+
+<h3>### 👨‍💻 Author</h3>
+<p>Kabindra Basumatary<br>
+GitHub: @Basumatary321<br>
+Institute: Techno IT Computer Institute</p>
+
+<h3>### 📄 License</h3>
+<p>This project is licensed under the MIT License. You are free to use, modify, and distribute it for personal or commercial projects.</p>
+<p>Note: If you find this project helpful, please consider giving it a ⭐ to show your support!</p>
