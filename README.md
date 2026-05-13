@@ -1,7 +1,7 @@
  <h1> # Aronai Pattern Maker 🎨</h1>
 <p>A modern, interactive web application designed to create and customize traditional Aronai patterns. Built with a focus on speed and user experience, this tool allows designers and enthusiasts to digitize traditional motifs with ease.</p>
 
-<a href="https://basumatary321.github.io/aronai-pattern/">
+<a href="https://basumatary321.github.io/aronai-pattern/" target="_blank">
 Live Demo</a>
 
 <h3>### ✨ Features</h3>
@@ -13,9 +13,17 @@ Live Demo</a>
 <li>High-Quality Exports: Download your designs in multiple professional formats.</li>
 <li>Interactive UI: Smooth animated download progress popups and fast SVG rendering.</li>
 </ul>
-### 📸 Preview
+<h3>### 📸 Preview</h3>
+<img src="./images/aronaiscreen.jpg">
 
-### 📥 Supported Export Formats
+<h3>### 📥 Supported Export Formats</h3>
+<table border="1">
+<tr>
+<td>Format</td><td>Discription</td>
+</tr>
+</table>
+
+
 FormatDescriptionPNGHigh-resolution image with transparency support.JPGCompressed format ideal for standard printing.PDFVector-based document for high-quality professional printing.SVGScalable vector format for further editing in Illustrator or Inkscape.### 🛠️ Technologies UsedFrontend: HTML5, CSS3, JavaScript (ES6+)Graphics: SVG (Scalable Vector Graphics)Libraries: jsPDF for PDF generation.### 📂 Project StructurePlaintextaronai-pattern-maker/
 │
 ├── index.html       # Main application entry point
